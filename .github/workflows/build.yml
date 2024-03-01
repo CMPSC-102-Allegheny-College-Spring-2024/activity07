@@ -52,7 +52,7 @@ jobs:
         - name: Run Python Program
           if: always()
           run: |
-            cd threeXPlusOne/
+            cd threeXPlusOne
             poetry install
             poetry run threexplusone --seed 7
         # Run GatorGrader: see config/gatorgrade.yml
